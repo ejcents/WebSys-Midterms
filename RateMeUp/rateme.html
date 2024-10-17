@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate my web app please!</title>
+    <link rel="stylesheet" href="ratestyle.css">
+</head>
+<body>
+    <div class="rating-container">
+
+        <marquee><h1 style="color: white; max-width: 100%;">E Rate akong grado Ma'am</h1></marquee>
+        <div class="legend" style="color: white;">
+            1 2 3 4 5 
+        </div>
+
+        <div class="rating">
+            <span class="star" data-rating="1">★</span>
+            <span class="star" data-rating="2">★</span>
+            <span class="star" data-rating="3">★</span>
+            <span class="star" data-rating="4">★</span>
+            <span class="star" data-rating="5">★</span>
+        </div>
+
+        <div class="emoji"></div>
+        <div class="rating-text" style="color: white;"></div>
+        <br>
+        <button id="logout" onclick="exit()">Go back</button>
+    </div>
+
+    <script src="ratescript.js"></script>
+</body>
+</html>

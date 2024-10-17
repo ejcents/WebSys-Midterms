@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000241;
+    font-family: Arial, sans-serif;
+}
+
+.rating-container {
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.star {
+    font-size: 40px;
+    color: gray;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.star:hover, .star:active {
+    color: gold;
+}
+
+.emoji {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.rating-text {
+    font-size: 20px;
+}
+
+.legend {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#logout {
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#logout:hover {
+    background-color: red;
+}
+
+#logout {
+    transition: background-color 0.2s ease-in-out;
+}
+
+#logouts:hover {
+    background-color: red;
+}

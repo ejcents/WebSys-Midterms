@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username"></label>
+                <input type="text" id="username-input" name="username" placeholder="Enter username"><br><br>
+
+                <label for="password"></label>
+                <input type="password" id="password-input" name="password" placeholder="Enter password"><br><br>
+
+                <button type="submit">Login</button>
+            </form>
+            <!-- <p>No Account? <a href="#" id="register-link">Register</a></p> -->
+        </div>
+
+        <div id="registerForm">
+            <h2>Register</h2>
+            <form id="register">
+                <label for="register-username"></label>
+                <input type="text" id="register-username" placeholder="Enter new username"><br><br>
+
+                <label for="register-password"></label>
+                <input type="password" id="register-password" placeholder="Enter new password"><br><br>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <p id="error-message"></p>
+
+    <script src="authentication.js"></script>
+</body>
+</html>
